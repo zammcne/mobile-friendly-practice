@@ -63,3 +63,30 @@ h3   {
     padding-top: 50px;
 }
 
+/*  Using your repository from Day 1:
+Create a new branch called daily-challenge
+Create media queries for the following breakpoints:
+480px
+768px
+1024px
+Change the background color of the header at each breakpoint
+Push your changes to your daily-challenge branch  */
+
+@media only screen and (max-width: 1024px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+@media only screen and (max-width: 768px) {
+    body {
+      background-color: yellow;
+    }
+  }
+
+ @media only screen and (max-width: 600px) {
+    body {
+      background-color: hotpink;
+    }
+  }
+
