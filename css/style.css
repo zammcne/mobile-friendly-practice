@@ -3,9 +3,46 @@ style
     box-sizing: border-box;
 }
 
-body    {
+body {
     margin: 50px;
 }
+
+    nav {
+        background-color: rgb(55, 171, 209);
+        color: white;
+        height: 200px;
+        border-radius: 20px;
+    }
+
+        /*  Using your repository from Day 1:
+                Create a new branch called daily-challenge
+                Create media queries for the following breakpoints:
+                480px
+                768px
+                1024px
+                Change the background color of the header at each breakpoint
+                Push your changes to your daily-challenge branch  */
+
+                @media only screen and (max-width: 1024px) {
+                    .navbar {
+                    background-color: crimson;
+                    color: white;
+                    }
+                }
+
+                @media only screen and (max-width: 768px) {
+                    .navbar {
+                    background-color: yellow;
+                    color: black;
+                    }
+                }
+
+                @media only screen and (max-width: 600px) {
+                    .navbar {
+                    background-color: hotpink;
+                    color: blueviolet;
+                    }
+                }
 
         h1  {
             text-align: center;
@@ -13,18 +50,17 @@ body    {
             padding: 80px;
         }
 
-        h3   {
-            text-align: center;
-            padding-top: 50px;
+    main   {
+        padding: 10px;
         }
 
-                    .hd1    {
+                    .hd1  {
                         text-align: left;
                         margin-left: 25%;
                         color:  rgb(87, 149, 170);
                     }
 
-                    .hd2    {
+                    .hd2  {
                         text-align: right;
                         margin-right: 25%;
                         color: rgb(87, 149, 170);
@@ -44,53 +80,17 @@ body    {
                         font-size: x-small;
                     }
 
-     main    {
-        padding: 10px;
-        }
-
-        nav {
-            background-color: rgb(55, 171, 209);
-            color: white;
-            height: 200px;
-            border-radius: 20px;
-        }
-
-        /*  Using your repository from Day 1:
-                Create a new branch called daily-challenge
-                Create media queries for the following breakpoints:
-                480px
-                768px
-                1024px
-                Change the background color of the header at each breakpoint
-                Push your changes to your daily-challenge branch  */
-
-                @media only screen and (max-width: 1024px) {
-                    .navbar  {
-                    background-color: crimson;
-                    color: white;
-                    }
-                }
-
-                @media only screen and (max-width: 768px) {
-                    .navbar   {
-                    background-color: yellow;
-                    color: black;
-                    }
-                }
-
-                @media only screen and (max-width: 600px) {
-                    .navbar   {
-                    background-color: hotpink;
-                    color: blueviolet;
-                    }
-                }
-
     footer {
             background-color: rgb(9, 52, 70);
             color: white;
             padding: 5px;
             border-radius: 20px;
             font-size: x-small;
+        }
+
+        h3   {
+            text-align: center;
+            padding-top: 50px;
         }
 
        
